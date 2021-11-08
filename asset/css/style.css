@@ -276,6 +276,93 @@ body, html{
     text-align: left;
 }
 
+#testimonial{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.review-wrap{
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--white);
+    border-radius: 3rem;
+    box-shadow:rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+
+.review-wrap.active{
+    transform: scale(1.2)!important;
+}
+
+.review-content{
+    padding: 3rem;
+    border-bottom: 0.125rem solid var(--grey);
+    position: relative;
+    text-align: center;
+}
+
+.review-img{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 5rem;
+  height: 5rem;  
+  border-radius: 1.75rem;
+  box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+
+.review-info{
+    padding: 3rem;
+    text-align: center;
+}
+
+.rating{
+    margin-top: 2rem;
+}
+
+.rating i{
+    color: var(--primary-color);
+}
+
+.footer{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: var(--white);
+    
+}
+
+.footer h1 {
+    color: var(--primary-color);
+}
+
+.input-group{
+    padding: 1rem;
+    border: 0.125rem solid var(--primary-color);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.input-group input{
+    flex:auto;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: var(--white);
+}
+
+.input-group button{
+    padding: .5rem 1rem;
+    outline: none;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    color: var(--white);
+    font-weight: 600;
+    cursor: pointer;
+}
+
 @media only screen and (max-width:600px){
     .col-xs-1{
         width:8.33%;
